@@ -58,7 +58,8 @@ const enableBoxes = () => {
 
 
 const showWinner = (winner) => {
-    msg.innerText = `CONGRATS MY NIGGA...THE WINNER IS ${winner}`;
+    msg.innerText = `CONGRATS MY NIGGA...\nTHE WINNER IS ${winner}`;
+    msg.style.color = "#023047"
     msgContainer.classList.remove("hide");
     disableBoxes ();
 }
